@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Undo undo = Undo.getInstance(); // Get the singleton instance
+        Undo undo = Undo.getInstance();
 
         System.out.println("------------------\n| COMMAND SYSTEM |\n------------------");
         System.out.println("Available commands:");
